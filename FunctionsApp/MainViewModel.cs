@@ -67,7 +67,7 @@ namespace FunctionsApp
 
 
         /// <summary>
-        /// The variable which working with coefficient "a". Saves/Loads value into an array of Functions which user inputted
+        /// The variable which working with coefficient "a". Saves/Loads value into an <see cref="_arrFuncs"/> which user inputted
         /// and makes disables writing non-numeric values
         /// </summary>
         public String ValueA
@@ -95,7 +95,7 @@ namespace FunctionsApp
         }
 
         /// <summary>
-        /// The variable which working with coefficient "b". Saves/Loads value into an array of Functions which user inputted
+        /// The variable which working with coefficient "b". Saves/Loads value into an <see cref="_arrFuncs"/> which user inputted
         /// and makes disables writing non-numeric values
         /// </summary>
         public String ValueB
